@@ -222,22 +222,18 @@ img {
   font-weight: 400;
 }
 
-.features-list .item::before {
-  content: "";
-  display: block;
+.features-icon-pos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-icon {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  border: 1px solid tomato;
   border-radius: 4px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--unique-background-color);
-}
-
-.icon-antenna::before {
-  background-image: url("../images/symbol-defs.svg#antenna");
 }
 
 .features-title,
@@ -364,13 +360,16 @@ img {
   margin-left: 30px;
 }
 
+.clients-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .clients-link {
   border: 1px solid var(--client-image-color);
   border-radius: 4px;
   padding: 16px 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .client-image {
