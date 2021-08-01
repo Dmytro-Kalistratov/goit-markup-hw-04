@@ -503,8 +503,6 @@ img {
   background-color: var(--social-footer-bg-color);
 }
 .join-link-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--secondary-text-color);
 }
 
