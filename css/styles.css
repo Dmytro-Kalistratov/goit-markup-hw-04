@@ -110,10 +110,11 @@ img {
 .address .address-li {
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  display: flex;
+  align-items: center;
 }
 
 .address {
@@ -126,7 +127,6 @@ img {
 }
 
 .address-li {
-  display: flex;
   color: var(--primary-text-color);
 }
 
@@ -171,7 +171,6 @@ img {
 .hero {
   text-align: center;
   padding: 200px 0;
-  background-color: var(--background-color);
 }
 
 .overlay {
@@ -179,6 +178,7 @@ img {
   margin-right: auto;
   min-width: 1200px;
   height: 600px;
+  background-color: var(--background-color);
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
@@ -233,7 +233,7 @@ img {
 }
 
 .features-icon-pos {
-  padding: 25px 0;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -401,7 +401,12 @@ img {
 .clients-link {
   border: 1px solid var(--client-image-color);
   border-radius: 4px;
-  padding: 16px 32px;
+/* padding: 16px 32px; */
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .client-image {
@@ -430,6 +435,7 @@ img {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-ft {
@@ -471,7 +477,6 @@ img {
 }
 
 .join-content {
-  padding-top: 12px;
   margin-left: 70px;
 }
 
